@@ -1,0 +1,50 @@
+{
+  "profile": "tmt-weekly",
+  "opening": "按本期内容选择封面、投资要点或事件总览，连接新增事实、市场反应与投资含义",
+  "sections": [
+    {
+      "number": "01",
+      "label": "宏观与市场",
+      "detail": "涨跌排序、信用与利率、油价、仓位与市场情绪"
+    },
+    {
+      "number": "02",
+      "label": "Hardware",
+      "detail": "紧缺总表、算力平台、存储、光通信、代工与设备、CPU、AI电力"
+    },
+    {
+      "number": "03",
+      "label": "Foundation Model",
+      "detail": "经营数据、模型能力、用量与商业化、监管"
+    },
+    {
+      "number": "04",
+      "label": "Agentic Infra",
+      "detail": "基础设施、计价方式、采用情况与市场反应"
+    },
+    {
+      "number": "05",
+      "label": "Applications",
+      "detail": "软件、网安、消费AI、AI制药与具身智能"
+    },
+    {
+      "number": "06",
+      "label": "节点与下周",
+      "detail": "本期节点复盘、下周事件、日期未定的验证项"
+    }
+  ],
+  "review_columns": [
+    "节点",
+    "日期",
+    "结果",
+    "对判断的含义"
+  ],
+  "outlook_columns": [
+    "日期",
+    "事件",
+    "看什么"
+  ],
+  "missing_policy": "六类主题用于覆盖复查，不要求逐类成章。无合格资料时在范围说明中保留缺口，不造行情、事件、序列或历史观点；不为保持目录填空页。",
+  "role": "coverage_map_not_fixed_table_of_contents",
+  "editorial_policy": "由模型按重要性、增量、投资敏感性及证据选择主线，允许合并、拆分、重排或省略无实质内容的栏目；简记理由，不固定六章顺序或页数。"
+}

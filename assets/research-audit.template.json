@@ -1,0 +1,22 @@
+{
+  "audit_version": 2,
+  "report_id": null,
+  "window": {"start": null, "end": null, "cutoff_at": null, "timezone": "Asia/Shanghai"},
+  "scope": {
+    "subsectors": [],
+    "regions": [],
+    "info_types": ["financial", "technology", "orders", "capex", "credit", "supply", "infrastructure", "regulation"],
+    "source_families": ["ir_filing", "official", "media", "industry_research", "conference", "contract_counterparty"]
+  },
+  "queries": [],
+  "coverage": [],
+  "source_coverage": [],
+  "coverage_review": {"before_selection": false, "findings": [], "follow_up_query_ids": [], "remaining_gaps": []},
+  "discovery_review": {"entity_checks": [], "region_checks": [], "gap_actions": [], "summary": null},
+  "material_access_failures": [],
+  "calculations": [],
+  "candidates": [],
+  "sources": [],
+  "claims": [],
+  "limitations": []
+}

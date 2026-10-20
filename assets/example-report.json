@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "report_id": "synthetic-reference-demo",
+  "title": "投研报告结构与版式｜合成演示",
+  "mode": "reference-demo",
+  "status": "DEMO_REFERENCE_ONLY",
+  "period_start": "2026-10-12",
+  "period_end": "2026-10-18",
+  "cutoff_at": "2026-10-18T23:59:59+08:00",
+  "timezone": "Asia/Shanghai",
+  "universe": [
+    "虚构TMT行业"
+  ],
+  "limitations": [
+    "全部公司、数值和事件均为合成，不代表真实研究或已读外部原稿。",
+    "本文件只用于跨机器渲染和离线结构检查，不需要任何私人参考文件。"
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "合成示例来源（无真实公司或研报）",
+      "kind": "reference",
+      "access": "not_accessed",
+      "published_at": null,
+      "accessed_at": null,
+      "url": "https://example.org/synthetic-demo",
+      "notes": "纯合成字段；网址为示意，未访问，不代表外部披露。"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "text": "虚构行业指标从100变为110，仅演示对比结构。",
+      "kind": "fact",
+      "verification": "reference_only",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "合成示例字段 C01",
+          "evidence": "纯合成数据，仅验证证据链接和排版。"
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "text": "虚构设备A与B用于演示事件、观察和验证条件的对照。",
+      "kind": "fact",
+      "verification": "reference_only",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "合成示例字段 C02",
+          "evidence": "纯合成数据，仅验证证据链接和排版。"
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "text": "若合成产能按情景兑现，虚构供给约束可能缓解。",
+      "kind": "inference",
+      "verification": "reference_only",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "合成示例字段 C03",
+          "evidence": "纯合成数据，仅验证证据链接和排版。"
+        }
+      ],
+      "assumptions": "仅合成情景假设，无真实预测。"
+    },
+    {
+      "id": "C04",
+      "text": "虚构公司的合成收入序列为10、12、15，仅用于版式检查。",
+      "kind": "fact",
+      "verification": "reference_only",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "合成示例字段 C04",
+          "evidence": "纯合成数据，仅验证证据链接和排版。"
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "text": "虚构项目A和B分别处于样机与试验阶段。",
+      "kind": "fact",
+      "verification": "reference_only",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "合成示例字段 C05",
+          "evidence": "纯合成数据，仅验证证据链接和排版。"
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "text": "合成复盘按新增信息与原判断逐项对应，不声称真实历史预测。",
+      "kind": "inference",
+      "verification": "reference_only",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "合成示例字段 C06",
+          "evidence": "纯合成数据，仅验证证据链接和排版。"
+        }
+      ],
+      "assumptions": "仅合成情景假设，无真实预测。"
+    },
+    {
+      "id": "C07",
+      "text": "合成日历在10月21日和22日安排虚构观察节点，未核任何实际排期。",
+      "kind": "calendar",
+      "verification": "reference_only",
+      "source_refs": [
+        {
+          "source_id": "S01",
+          "locator": "合成示例字段 C07",
+          "evidence": "纯合成数据，仅验证证据链接和排版。"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "E01",
+      "event_key": "synthetic/event/2026-10-14",
+      "occurred_at": "2026-10-14",
+      "summary": "虚构事件，仅合成。",
+      "claim_ids": [
+        "C04"
+      ]
+    }
+  ],
+  "theses": [
+    {
+      "id": "T01",
+      "thesis_key": "synthetic/supply",
+      "stance": "pending",
+      "text": "虚构供给观察，仅演示。",
+      "claim_ids": [
+        "C03"
+      ],
+      "next_validation": "检查合成情景假设，不对应真实财报。"
+    }
+  ],
+  "calendar": [
+    {
+      "date": "2026-10-21",
+      "item": "虚构节点A",
+      "focus": "合成验证项",
+      "confirmation": "reference_only",
+      "claim_ids": [
+        "C07"
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "item": "虚构节点B",
+      "focus": "合成验证项",
+      "confirmation": "reference_only",
+      "claim_ids": [
+        "C07"
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "section": "合成演示",
+      "title": "投研报告｜合成演示",
+      "claim_ids": [
+        "C01"
+      ],
+      "takeaway": "仅用于演示，不是本期研究结论。",
+      "blocks": [],
+      "subtitle": "仅验证排版与接口",
+      "toc": [
+        {
+          "number": "01",
+          "label": "结构演示",
+          "detail": "事件、图表、判断与日历"
+        }
+      ],
+      "metrics": [
+        {
+          "label": "数据属性",
+          "value": "纯合成",
+          "change": ""
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "section": "合成演示",
+      "title": "虚构事件对照",
+      "claim_ids": [
+        "C02"
+      ],
+      "takeaway": "仅用于演示，不是本期研究结论。",
+      "blocks": [
+        {
+          "type": "table",
+          "heading": "合成事件表",
+          "columns": [
+            "对象",
+            "变化",
+            "验证"
+          ],
+          "rows": [
+            [
+              "虚构设备A",
+              "样本进度变化",
+              "合成条件A"
+            ],
+            [
+              "虚构设备B",
+              "样本价格变化",
+              "合成条件B"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "two_column",
+      "section": "合成演示",
+      "title": "虚构供给情景",
+      "claim_ids": [
+        "C03"
+      ],
+      "takeaway": "仅用于演示，不是本期研究结论。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "假设",
+          "items": [
+            "仅合成产能情景。"
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "验证",
+          "items": [
+            "不映射任何真实公司。"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "section": "合成演示",
+      "title": "虚构项目与复盘",
+      "claim_ids": [
+        "C05",
+        "C06"
+      ],
+      "takeaway": "仅用于演示，不是本期研究结论。",
+      "blocks": [
+        {
+          "type": "table",
+          "heading": "合成复盘",
+          "columns": [
+            "项目",
+            "阶段"
+          ],
+          "rows": [
+            [
+              "项目A",
+              "样机"
+            ],
+            [
+              "项目B",
+              "试验"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bars",
+      "section": "合成演示",
+      "title": "虚构公司的合成序列",
+      "claim_ids": [
+        "C04"
+      ],
+      "takeaway": "仅用于演示，不是本期研究结论。",
+      "blocks": [
+        {
+          "type": "bars",
+          "heading": "合成指标",
+          "unit": "示例单位",
+          "values": [
+            {
+              "label": "一期",
+              "value": 10
+            },
+            {
+              "label": "二期",
+              "value": 12
+            },
+            {
+              "label": "三期",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "calendar",
+      "section": "合成演示",
+      "title": "合成日历",
+      "claim_ids": [
+        "C07"
+      ],
+      "takeaway": "仅用于演示，不是本期研究结论。",
+      "blocks": [
+        {
+          "type": "text",
+          "heading": "注意",
+          "items": [
+            "全部节点为虚构；正式日历须核实官方排期。"
+          ]
+        }
+      ]
+    }
+  ]
+}

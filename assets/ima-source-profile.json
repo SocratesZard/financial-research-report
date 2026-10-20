@@ -1,0 +1,13 @@
+{
+  "profile_version": 1,
+  "provider": "ima",
+  "knowledge_base_name": "",
+  "knowledge_base_id": null,
+  "access_mode": "read_only",
+  "timezone": "Asia/Shanghai",
+  "default_queries": ["算力", "半导体", "存储", "光通信", "大模型", "Agent", "软件", "网络安全", "机器人", "医药"],
+  "default_max_pages_per_route": 3,
+  "default_page_size": 20,
+  "default_max_download_mb": 80,
+  "notes": "团队可分发模板，未配置知识库。用setup_ima.cjs init生成个人配置，或通过--profile传入；凭证由ima-skill管理。本模板不提供任何知识库权限。"
+}

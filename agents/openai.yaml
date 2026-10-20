@@ -1,0 +1,4 @@
+interface:
+  display_name: "投研日报与周报"
+  short_description: "主动联网并整合个人配置的IMA资料，生成可追溯日报周报，支持团队独立接入"
+  default_prompt: "使用 $financial-research-report，做一份上周的TMT产业周报。"
